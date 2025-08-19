@@ -1,4 +1,4 @@
-import os
+yimport os
 import faiss
 import numpy as np
 import nltk
@@ -9,7 +9,7 @@ from nltk.tokenize import sent_tokenize, word_tokenize
 from sentence_transformers import SentenceTransformer
 
 # Set your Gemini API key here
-client = genai.Client(api_key="AIzaSyDJ3BtrYUe5vD4wxkfm5PFsBaWrKcCgizI")
+client = genai.Client(api_key="api_key")
 
 
 #test git
