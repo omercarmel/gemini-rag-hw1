@@ -12,7 +12,7 @@ from sentence_transformers import SentenceTransformer
 client = genai.Client(api_key="api_key")
 
 
-#test git
+
 
 # Download NLTK assets
 nltk.download('punkt')
