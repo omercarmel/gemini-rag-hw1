@@ -11,6 +11,9 @@ from sentence_transformers import SentenceTransformer
 # Set your Gemini API key here
 client = genai.Client(api_key="AIzaSyDJ3BtrYUe5vD4wxkfm5PFsBaWrKcCgizI")
 
+
+#test git
+
 # Download NLTK assets
 nltk.download('punkt')
 nltk.download('stopwords')
