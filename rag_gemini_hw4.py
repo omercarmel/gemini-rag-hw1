@@ -15,7 +15,7 @@ from sentence_transformers import SentenceTransformer
 # Setup
 # ==============================
 # Use env var for safety: set GEMINI_API_KEY in your environment
-client = genai.Client(api_key=os.getenv("AIzaSyDJ3BtrYUe5vD4wxkfm5PFsBaWrKcCgizI"))
+client = genai.Client(api_key=os.getenv("api_key"))
 
 # NLTK assets (no-op if already present)
 nltk.download("punkt")
